@@ -1,6 +1,6 @@
 function accum(s) {
     console.log('([...s]):', ([...s]))
-    return ([...s]).map((c, i) => (c.toUpperCase() + c.toLowerCase().repeat(i))).join('-');
+    return ([...s]).map((c, i) => (c.toUpperCase() + c.toLowerCase().repeat(i)));
 }
 
 // function accum(s) {
