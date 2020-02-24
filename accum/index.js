@@ -1,4 +1,5 @@
 function accum(s) {
+    console.log('([...s]):', ([...s]))
     return ([...s]).map((c, i) => (c.toUpperCase() + c.toLowerCase().repeat(i))).join('-');
 }
 
