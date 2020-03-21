@@ -1,11 +1,11 @@
 function solution(number) {
-  let arr = 0;
+  let result = 0;
   for (let i = 0; i < number; i++) {
-    if (i % 3 === 0 || i % 5 === 0) {
-      arr += i;
+    if(i % 3 === 0|| i % 5 === 0) {
+      result += i;
     }
   }
-  return arr;
+  return result;
 }
 
 console.log(solution(2));
